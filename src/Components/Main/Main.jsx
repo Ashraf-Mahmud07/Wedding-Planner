@@ -1,4 +1,5 @@
 
+import Cooking from '../Cooking/Cooking';
 import FoodSlice from '../Food/FoodSlice';
 import Review from '../Reviews/Review';
 import Venues from '../Venues/Venues';
@@ -15,6 +16,7 @@ const Main = () => {
             <Venues/>
             <AdVideo/>
             <Review/>
+            <Cooking/>
         </div>
     );
 };

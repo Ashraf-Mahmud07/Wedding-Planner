@@ -1,9 +1,6 @@
-// import { Carousel } from "react-responsive-carousel";
-// import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { FaArrowRightLong } from 'react-icons/fa6';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import AdVideo from '../VideoSection/AdVideo';
 
 const Venues = () => {
     const responsive = {
@@ -29,23 +26,21 @@ const Venues = () => {
         <div className="mt-[450px] mb-10 ">
 
             <Carousel responsive={responsive}>
-                <div>
-                    <div className="relative w-full h-[418px] cursor-pointer overflow-hidden">
-                        <div
-                            className="absolute inset-0 "
-                            style={{ backgroundImage: `url(${"https://img.freepik.com/free-photo/wedding-table-arrangement-outdoors_23-2149617132.jpg?size=626&ext=jpg&uid=R138265752&ga=GA1.1.22933237.1708163458&semt=ais"})` }}
-                        ></div>
-                        <div className="absolute inset-0 flex flex-col items-center justify-between hover:bg-opacity-40 hover:bg-[#E8672F] opacity-0 hover:opacity-100 text-white transition-opacity">
-                            <a className="btn btn-sm px-10 text-lg mt-40 rounded-2xl text-white bg-[#E8672F] hover:bg-[#d37b27]">EXPLORE VENUE <FaArrowRightLong /></a>
-                            <div className='w-full flex flex-col justify-start px-10 mb-4 '>
-                                <h1 className='text-white text-4xl pb-2 font-bold font-serif'>The Richland</h1>
-                                <hr />
-                                <p className='pt-2'>ORANGE</p>
-                            </div>
+                <div className="relative h-[418px] cursor-pointer overflow-hidden">
+                    <div
+                        className="absolute inset-0 "
+                        style={{ backgroundImage: `url(${"https://img.freepik.com/free-photo/wedding-table-arrangement-outdoors_23-2149617132.jpg?size=626&ext=jpg&uid=R138265752&ga=GA1.1.22933237.1708163458&semt=ais"})` }}
+                    ></div>
+                    <div className="absolute inset-0 flex flex-col items-center justify-between hover:bg-opacity-40 hover:bg-[#E8672F] opacity-0 hover:opacity-100 text-white transition-opacity">
+                        <a className="btn btn-sm px-10 text-lg mt-40 rounded-2xl text-white bg-[#E8672F] hover:bg-[#d37b27]">EXPLORE VENUE <FaArrowRightLong /></a>
+                        <div className='w-full flex flex-col justify-start px-10 mb-4 '>
+                            <h1 className='text-white text-4xl pb-2 font-bold font-serif'>The Richland</h1>
+                            <hr />
+                            <p className='pt-2'>ORANGE</p>
                         </div>
                     </div>
                 </div>
-                <div className="relative w-full h-[418px] cursor-pointer overflow-hidden">
+                <div className="relative h-[418px] cursor-pointer overflow-hidden mx-2">
                     <div
                         className="absolute inset-0 "
                         style={{ backgroundImage: `url(${"https://img.freepik.com/free-photo/decorations-made-chrysanthemums-threads-stand-along-glance-path-dark-hall_1304-3398.jpg?size=626&ext=jpg&uid=R138265752&ga=GA1.1.22933237.1708163458&semt=ais"})` }}
@@ -59,7 +54,7 @@ const Venues = () => {
                         </div>
                     </div>
                 </div>
-                <div className="relative w-full h-[418px] cursor-pointer overflow-hidden">
+                <div className="relative h-[418px] cursor-pointer overflow-hidden">
                     <div
                         className="absolute inset-0 "
                         style={{ backgroundImage: `url(${"https://img.freepik.com/free-photo/place-wedding-ceremony-with-wedding-arch-decorated-with-flowers-white-chairs-each-side-archway-outdoors-preparation-wedding-ceremony-outdoors-near-lake_613910-4241.jpg?size=626&ext=jpg&uid=R138265752&ga=GA1.1.22933237.1708163458&semt=ais"})` }}
@@ -73,10 +68,80 @@ const Venues = () => {
                         </div>
                     </div>
                 </div>
-                <div className="relative w-full h-[418px] cursor-pointer overflow-hidden">
+                <div className="relative h-[418px] cursor-pointer overflow-hidden mx-2">
                     <div
                         className="absolute inset-0 "
                         style={{ backgroundImage: `url(${"https://img.freepik.com/free-photo/arch-wedding-ceremony-decorated-with-cloth-flowers-greenery-is-pine-forest_501050-524.jpg?size=626&ext=jpg&uid=R138265752&ga=GA1.1.22933237.1708163458&semt=ais"})` }}
+                    ></div>
+                    <div className="absolute inset-0 flex flex-col items-center justify-between hover:bg-opacity-40 hover:bg-[#E8672F] opacity-0 hover:opacity-100 text-white transition-opacity">
+                        <a className="btn btn-sm px-10 text-lg mt-40 rounded-2xl text-white bg-[#E8672F] hover:bg-[#d37b27]">EXPLORE VENUE <FaArrowRightLong /></a>
+                        <div className='w-full flex flex-col justify-start px-10 mb-4 '>
+                            <h1 className='text-white text-4xl pb-2 font-bold font-serif'>The Richland</h1>
+                            <hr />
+                            <p className='pt-2'>ORANGE</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="relative h-[418px] cursor-pointer overflow-hidden mx-2">
+                    <div
+                        className="absolute inset-0 "
+                        style={{ backgroundImage: `url(${"https://img.freepik.com/free-photo/bridesmaids-dressed-pink-dresses-best-men-wedding-couple-are-happily-walking-green-yard_8353-11184.jpg?size=626&ext=jpg&uid=R138265752&ga=GA1.1.22933237.1708163458&semt=ais"})` }}
+                    ></div>
+                    <div className="absolute inset-0 flex flex-col items-center justify-between hover:bg-opacity-40 hover:bg-[#E8672F] opacity-0 hover:opacity-100 text-white transition-opacity">
+                        <a className="btn btn-sm px-10 text-lg mt-40 rounded-2xl text-white bg-[#E8672F] hover:bg-[#d37b27]">EXPLORE VENUE <FaArrowRightLong /></a>
+                        <div className='w-full flex flex-col justify-start px-10 mb-4 '>
+                            <h1 className='text-white text-4xl pb-2 font-bold font-serif'>The Richland</h1>
+                            <hr />
+                            <p className='pt-2'>ORANGE</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="relative h-[418px] cursor-pointer overflow-hidden mx-2">
+                    <div
+                        className="absolute inset-0 "
+                        style={{ backgroundImage: `url(${"https://img.freepik.com/free-photo/front-view-beautiful-bride-groom-wedding-apparel-smiling-looking-each-other-while-standing-friends_8353-11850.jpg?size=626&ext=jpg&uid=R138265752&ga=GA1.1.22933237.1708163458&semt=ais"})` }}
+                    ></div>
+                    <div className="absolute inset-0 flex flex-col items-center justify-between hover:bg-opacity-40 hover:bg-[#E8672F] opacity-0 hover:opacity-100 text-white transition-opacity">
+                        <a className="btn btn-sm px-10 text-lg mt-40 rounded-2xl text-white bg-[#E8672F] hover:bg-[#d37b27]">EXPLORE VENUE <FaArrowRightLong /></a>
+                        <div className='w-full flex flex-col justify-start px-10 mb-4 '>
+                            <h1 className='text-white text-4xl pb-2 font-bold font-serif'>The Richland</h1>
+                            <hr />
+                            <p className='pt-2'>ORANGE</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="relative h-[418px] cursor-pointer overflow-hidden mx-2">
+                    <div
+                        className="absolute inset-0 "
+                        style={{ backgroundImage: `url(${"https://img.freepik.com/free-photo/front-view-people-posing-together_23-2149956426.jpg?size=626&ext=jpg&uid=R138265752&ga=GA1.1.22933237.1708163458&semt=ais"})` }}
+                    ></div>
+                    <div className="absolute inset-0 flex flex-col items-center justify-between hover:bg-opacity-40 hover:bg-[#E8672F] opacity-0 hover:opacity-100 text-white transition-opacity">
+                        <a className="btn btn-sm px-10 text-lg mt-40 rounded-2xl text-white bg-[#E8672F] hover:bg-[#d37b27]">EXPLORE VENUE <FaArrowRightLong /></a>
+                        <div className='w-full flex flex-col justify-start px-10 mb-4 '>
+                            <h1 className='text-white text-4xl pb-2 font-bold font-serif'>The Richland</h1>
+                            <hr />
+                            <p className='pt-2'>ORANGE</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="relative h-[418px] cursor-pointer overflow-hidden mx-2">
+                    <div
+                        className="absolute inset-0 "
+                        style={{ backgroundImage: `url(${"https://img.freepik.com/free-photo/front-view-stylish-friends-newlyweds-festival-outfits-hugging-each-other-smiling-posing-camera-during-wedding-walking-park-background_8353-12427.jpg?size=626&ext=jpg&uid=R138265752&ga=GA1.1.22933237.1708163458&semt=ais"})` }}
+                    ></div>
+                    <div className="absolute inset-0 flex flex-col items-center justify-between hover:bg-opacity-40 hover:bg-[#E8672F] opacity-0 hover:opacity-100 text-white transition-opacity">
+                        <a className="btn btn-sm px-10 text-lg mt-40 rounded-2xl text-white bg-[#E8672F] hover:bg-[#d37b27]">EXPLORE VENUE <FaArrowRightLong /></a>
+                        <div className='w-full flex flex-col justify-start px-10 mb-4 '>
+                            <h1 className='text-white text-4xl pb-2 font-bold font-serif'>The Richland</h1>
+                            <hr />
+                            <p className='pt-2'>ORANGE</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="relative h-[418px] cursor-pointer overflow-hidden mx-2">
+                    <div
+                        className="absolute inset-0 "
+                        style={{ backgroundImage: `url(${"https://img.freepik.com/free-photo/full-shot-people-posing-wedding_23-2149956421.jpg?size=626&ext=jpg&uid=R138265752&ga=GA1.1.22933237.1708163458&semt=ais"})` }}
                     ></div>
                     <div className="absolute inset-0 flex flex-col items-center justify-between hover:bg-opacity-40 hover:bg-[#E8672F] opacity-0 hover:opacity-100 text-white transition-opacity">
                         <a className="btn btn-sm px-10 text-lg mt-40 rounded-2xl text-white bg-[#E8672F] hover:bg-[#d37b27]">EXPLORE VENUE <FaArrowRightLong /></a>
