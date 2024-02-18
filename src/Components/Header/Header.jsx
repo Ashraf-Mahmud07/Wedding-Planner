@@ -16,7 +16,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="flex flex-col min-w-96">
-                    <h1 className="text-3xl font-mono font-bold">24 CARROTS</h1>
+                    <h1 className="text-3xl font-serif font-bold">24 CARROTS</h1>
                     <p className="text-slate-500">CREATING & EVENTS</p>
                 </div>
                 <div className="navbar-end flex gap-6">
