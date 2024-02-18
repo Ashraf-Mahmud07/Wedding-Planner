@@ -8,7 +8,7 @@ const Content = ({ header, title, description, img }) => (
         <h1 className="pt-3">{title}</h1>
         <p className="text-lg">{description}</p>
         <div className="mt-4">
-            <button className="text-white bg-orange-800 gap-2 btn rounded-full flex">LEARN MORE <span className='text-xl'><FaArrowRight /></span></button>
+            <button className="text-white bg-[#C15627] hover:bg-[#E8672F] gap-2 btn rounded-full flex">LEARN MORE <span className='text-xl'><FaArrowRight/> </span></button>
         </div>
     </div>
 );
