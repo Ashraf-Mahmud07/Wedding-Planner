@@ -7,7 +7,7 @@ import Main from './Components/Main/Main'
 function App() {
 
   return (
-    <div className='bg-[#F2F2F2]'>
+    <div className='bg-[#F2F2F2] max-w-[1900px] mx-auto'>
       <Header />
       <BannerVideo />
       <Main />

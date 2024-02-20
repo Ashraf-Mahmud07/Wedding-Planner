@@ -49,7 +49,7 @@ const Footer = () => {
                     <a className="link link-hover flex items-center gap-2"><span><FaInstagram /></span>Instagram</a>
                     <a className="link link-hover flex items-center gap-2"><FaPinterest />Pinterest</a>
                     <a className="link link-hover flex items-center gap-2"><span><FaLinkedin /></span>Linkedin</a>
-                    <span className="mt-28">Site & design by Dooley Creative Co.</span>
+                    <span className="mt-28 -ms-32">Site & design by Dooley Creative Co.</span>
                 </nav>
             </footer>
         </div>
