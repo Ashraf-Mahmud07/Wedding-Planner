@@ -14,7 +14,7 @@ const BannerVideo = () => {
         type="video/mp4"
       />
       <div className="absolute inset-0 flex justify-center items-center">
-        <h1 className="text-white text-9xl opacity-85 font-serif font-bold">Simply the Finest</h1>
+        <p className="text-white xl:text-9xl lg:text-8xl md:text-7xl sm:text-5xl text-3xl opacity-85 font-serif font-bold">Simply the Finest</p>
       </div>
     </div>
   );
